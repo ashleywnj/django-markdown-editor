@@ -28,7 +28,7 @@ blocks:
           commands: []
         - name: Checklists
           commands:
-            - cd martor_demo
+            - martor_demo
             - python manage.py check --deploy
         - name: Style Check
           commands:
