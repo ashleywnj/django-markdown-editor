@@ -24,7 +24,8 @@ blocks:
           - python manage.py test
       jobs:
         - name: 'Job #1'
-          commands: []
+          commands:
+            - cd martor_demo
         - name: Checklists
           commands:
             - cd martor_demo
